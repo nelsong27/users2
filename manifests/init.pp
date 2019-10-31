@@ -10,5 +10,5 @@ class users2 {
     home      => '/home',
     password  => '*',
     shell     => '/bin/bash',
- }
+  }
 }
