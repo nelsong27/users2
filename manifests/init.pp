@@ -10,6 +10,6 @@ class users2 {
     home               => '/home',
     password           => '*',
     shell              => '/bin/bash',
-    password_max_age   => -1,
+    password_max_age   => 50,
   }
 }
