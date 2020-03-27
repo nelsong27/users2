@@ -10,6 +10,6 @@ class users2 {
     home               => '/home',
     password           => '*',
     shell              => '/sbin/nologin',
-    password_max_age   => 30,
+    password_max_age   => 40,
   }
 }
