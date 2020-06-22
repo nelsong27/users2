@@ -9,7 +9,7 @@ class users2 {
     ensure             => present,
     home               => '/home',
     password           => '*',
-    shell              => '/sbin/nologin',
+    shell              => '/bin/bash',
     password_max_age   => 30,
   }
 }
